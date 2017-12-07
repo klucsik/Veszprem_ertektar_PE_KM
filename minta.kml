@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Névtelen térkép</name>
+    <description/>
+    <Style id="icon-1899-0288D1-normal">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1899-0288D1-highlight">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1899-0288D1">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-0288D1-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-0288D1-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-0F9D58-labelson">
+      <IconStyle>
+        <color>ff589d0f</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+    </Style>
+    <Style id="icon-1899-880E4F-labelson">
+      <IconStyle>
+        <color>ff4f0e88</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+    </Style>
+    <Style id="icon-1899-FFD600-labelson">
+      <IconStyle>
+        <color>ff00d6ff</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+    </Style>
+    <Folder>
+      <name>Névtelen réteg</name>
+      <Placemark>
+        <name>Pont 1</name>
+        <description>bird</description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            17.890377,47.0957209,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pont 2</name>
+        <description>birds</description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            17.9018784,47.0977076,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>proba1.xlsx</name>
+      <Placemark>
+        <name>Szt. István-völgyhíd</name>
+        <description><![CDATA[rövid név: ÉP001<br>település: Veszprém<br>utca, házszám: <br>GPS N: 47.096741<br>GPS E: 17.896460<br>helyrajziszám: 794<br>típus: iskola<br>védelem: műemlék]]></description>
+        <styleUrl>#icon-1899-880E4F-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="rövid név">
+            <value>ÉP001</value>
+          </Data>
+          <Data name="település">
+            <value>Veszprém</value>
+          </Data>
+          <Data name="utca, házszám">
+            <value/>
+          </Data>
+          <Data name="GPS N">
+            <value>47.096741</value>
+          </Data>
+          <Data name="GPS E">
+            <value>17.896460</value>
+          </Data>
+          <Data name="helyrajziszám">
+            <value>794.0</value>
+          </Data>
+          <Data name="típus">
+            <value>iskola</value>
+          </Data>
+          <Data name="védelem">
+            <value>műemlék</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            17.89646,47.096741,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Gyógypedagógiai iskola (volt)</name>
+        <description><![CDATA[rövid név: ÉP002<br>település: Veszprém<br>utca, házszám: Jókai u. 48.<br>GPS N: 47.0969863<br>GPS E: 17.9012357<br>helyrajziszám: 599<br>típus: lakó<br>védelem: nem védett]]></description>
+        <styleUrl>#icon-1899-0F9D58-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="rövid név">
+            <value>ÉP002</value>
+          </Data>
+          <Data name="település">
+            <value>Veszprém</value>
+          </Data>
+          <Data name="utca, házszám">
+            <value>Jókai u. 48.</value>
+          </Data>
+          <Data name="GPS N">
+            <value>47.0969863</value>
+          </Data>
+          <Data name="GPS E">
+            <value>17.9012357</value>
+          </Data>
+          <Data name="helyrajziszám">
+            <value>599.0</value>
+          </Data>
+          <Data name="típus">
+            <value>lakó</value>
+          </Data>
+          <Data name="védelem">
+            <value>nem védett</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            17.9012357,47.0969863,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Lovassy László Közgazdasági technikum, volt piarista gimnázium</name>
+        <description><![CDATA[rövid név: ÉP003<br>település: Veszprém<br>utca, házszám: Vár u. 10.<br>GPS N: 47.095777<br>GPS E: 17.904669<br>helyrajziszám: 290<br>típus: krumpli<br>védelem: paradicsom]]></description>
+        <styleUrl>#icon-1899-FFD600-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="rövid név">
+            <value>ÉP003</value>
+          </Data>
+          <Data name="település">
+            <value>Veszprém</value>
+          </Data>
+          <Data name="utca, házszám">
+            <value>Vár u. 10.</value>
+          </Data>
+          <Data name="GPS N">
+            <value>47.095777</value>
+          </Data>
+          <Data name="GPS E">
+            <value>17.904669</value>
+          </Data>
+          <Data name="helyrajziszám">
+            <value>290.0</value>
+          </Data>
+          <Data name="típus">
+            <value>krumpli</value>
+          </Data>
+          <Data name="védelem">
+            <value>paradicsom</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            17.904669,47.095777,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>
